@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+.env.*
+config/service-account.json
+config/*.key.json
+npm-debug.log*
+
