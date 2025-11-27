@@ -10,8 +10,8 @@ type EnvKey =
   | "GOOGLE_APPLICATION_CREDENTIALS";
 
 const OPTIONAL_DEFAULTS = {
-  PERPLEXITY_MODEL: "llama-3.1-sonar-small-128k-online",
-  GOOGLE_SHEETS_TAB: "EngineeringTop10",
+  PERPLEXITY_MODEL: "llama-3.1-sonar-large-128k-online",
+  GOOGLE_SHEETS_TAB: "EngineeringTop100",
 } as const;
 
 const requireEnv = (key: EnvKey): string => {

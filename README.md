@@ -1,6 +1,6 @@
 # Mindler Data Fetcher
 
-Utility scripts to pre-fetch AI-assisted roadmap data (starting with the top 10 engineering colleges) and sync the output into a Google Sheet for review.
+Utility scripts to pre-fetch AI-assisted roadmap data (starting with the top 100 engineering colleges) and sync the output into a Google Sheet for review.
 
 ## Prerequisites
 
@@ -25,13 +25,13 @@ Utility scripts to pre-fetch AI-assisted roadmap data (starting with the top 10 
 
 ## Usage
 
-- Fetch and sync the “top 10 engineering colleges” dataset:
+- Fetch and sync the "top 100 engineering colleges" dataset:
 
   ```bash
   npm run fetch:colleges
   ```
 
-  The script requests Perplexity for a JSON-only response, normalizes the data, then overwrites the header + 10 rows in the configured sheet tab.
+  The script requests Perplexity for a JSON-only response, normalizes the data, then overwrites the header + 100 rows in the configured sheet tab.
 
 - Build the project (for deployment environments that require compiled JS):
 

@@ -9,10 +9,5 @@ export interface CollegeInfo {
   websiteLink?: string;
   eligibility?: string;
   approvedBy?: string;
-}
-
-export interface FetchResultMetadata {
-  fetchedAt: string;
-  model: string;
-  sourcePrompt: string;
+  sourceUrl?: string;
 }
